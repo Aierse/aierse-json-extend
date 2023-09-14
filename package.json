@@ -1,0 +1,25 @@
+{
+  "name": "@aierse/json-extend",
+  "version": "1.0.0",
+  "description": "Provides useful JSON tools.",
+  "author": "Aierse <dbsgur2008@gmail.com>",
+  "readmeFilename": "README.md",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aierse/aierse-json-extend"
+  },
+  "bugs": "https://github.com/Aierse/aierse-json-extend/issues",
+  "license": "MIT",
+  "keywords": [
+    "json",
+    "format",
+    "extend",
+    "json flat",
+    "json filter",
+    "url param"
+  ]
+}
