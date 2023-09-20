@@ -22,6 +22,7 @@ const json = {
     etc: undefined,
   },
 };
+
 // JSON makes flat
 json = JSONExtend.flat(json);
 /*
@@ -29,7 +30,7 @@ json = JSONExtend.flat(json);
     id: "test",
     password: "test",
     phone: "010-1234-5678",
-    memo: '',
+    memo: "",
     etc: undefined,
 }
 */
@@ -48,3 +49,11 @@ json = JSONExtend.filter(json, [null, undefined, ""]);
 const param = JSONExtend.urlParameter(json, [null, undefined, ""]);
 /* id=test&password=test&phone=010-1234-5678 */
 ```
+
+// JSON (key: value) convert to (value: key)
+// Be careful, Same value causes bug
+const reverse = JSONExtend.reverse(json)
+/*
+    test: "password",
+    "010-1234-5678": "phone"
+*/
