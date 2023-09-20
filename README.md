@@ -48,7 +48,6 @@ json = JSONExtend.filter(json, [null, undefined, ""]);
 // JSON makes URL parameter
 const param = JSONExtend.urlParameter(json, [null, undefined, ""]);
 /* id=test&password=test&phone=010-1234-5678 */
-```
 
 // JSON (key: value) convert to (value: key)
 // Be careful, Same value causes bug
@@ -57,3 +56,4 @@ const reverse = JSONExtend.reverse(json)
     test: "password",
     "010-1234-5678": "phone"
 */
+```
