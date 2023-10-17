@@ -1,6 +1,6 @@
 {
   "name": "@aierse/json-extend",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Provides useful JSON tools.",
   "author": "Aierse <dbsgur2008@gmail.com>",
   "readmeFilename": "README.md",
@@ -16,10 +16,14 @@
   "license": "MIT",
   "keywords": [
     "json",
+    "json function",
+    "url",
+    "parameter",
     "format",
     "extend",
     "json flat",
     "json filter",
-    "url param"
+    "json initialize",
+    "json reverse"
   ]
 }
