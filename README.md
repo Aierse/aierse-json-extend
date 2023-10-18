@@ -51,9 +51,20 @@ const param = JSONExtend.urlParameter(json, [null, undefined, ""]);
 
 // JSON (key: value) convert to (value: key)
 // Be careful, Same value causes bug
-const reverse = JSONExtend.reverse(json)
+const reverse = JSONExtend.reverse(json);
 /*
+{
     test: "password",
     "010-1234-5678": "phone"
+}
+*/
+
+const initialize = JSONExtend.initialize(["a", "b", "c"], 0);
+/*
+{
+    a: 0,
+    b: 0,
+    c: 0
+}
 */
 ```
