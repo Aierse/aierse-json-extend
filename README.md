@@ -46,7 +46,7 @@ json = JSONExtend.filter(json, [null, undefined, ""]);
 */
 
 // JSON makes URL parameter
-const param = JSONExtend.urlParameter(json, [null, undefined, ""]);
+const param = JSONExtend.urlParameter(json);
 /* id=test&password=test&phone=010-1234-5678 */
 
 // JSON (key: value) convert to (value: key)
