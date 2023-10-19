@@ -67,4 +67,60 @@ const initialize = JSONExtend.initialize(["a", "b", "c"], 0);
     c: 0
 }
 */
+
+const items = [
+  {
+    value1: 0,
+    value2: 0,
+    time: "2023-10-19",
+  },
+  {
+    value1: 1,
+    value2: 1,
+    time: "2023-10-19",
+  },
+  {
+    value1: 2,
+    value2: 2,
+    time: "2023-10-20",
+  },
+  {
+    value1: 3,
+    value2: 3,
+    time: "2023-10-21",
+  },
+];
+
+// JSON groupBy
+const groupBy = JSONExtend.groupBy(items, "time");
+/*
+{
+  '2023-10-19': [
+    {
+      value1: 0,
+      value2: 0,
+      time: '2023-10-19'
+    },
+    {
+      value1: 1,
+      value2: 1,
+      time: '2023-10-19'
+    }
+  ],
+  '2023-10-20': [
+    {
+      value1: 2,
+      value2: 2,
+      time: "2023-10-20",
+    }
+  ],
+  '2023-10-21': [
+    {
+      value1: 3,
+      value2: 3,
+      time: "2023-10-21",
+    }
+  ]
+}
+*/
 ```
