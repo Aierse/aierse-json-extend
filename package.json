@@ -1,6 +1,6 @@
 {
   "name": "@aierse/json-extend",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "Provides useful JSON tools.",
   "author": "Aierse <dbsgur2008@gmail.com>",
   "readmeFilename": "README.md",
@@ -24,6 +24,8 @@
     "json flat",
     "json filter",
     "json initialize",
-    "json reverse"
+    "json reverse",
+    "json groupBy",
+    "json sort"
   ]
 }
